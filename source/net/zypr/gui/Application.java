@@ -30,8 +30,6 @@ public class Application
 
   public Application()
   {
-    System.setProperty("net.zypr.api.key", "7df9a22df7e9cbbcb02ce673f85ddb0c");
-    System.setProperty("net.zypr.api.url", Configuration.getInstance().getProperty("api-url", "https://pais-dev.zypr.net/api/v2/"));
     JFrame frame = new ApplicationFrame();
     Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
     Dimension frameSize = frame.getSize();
